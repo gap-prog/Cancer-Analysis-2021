@@ -1,0 +1,50 @@
+.wrapper {
+    margin: 5rem 10rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    max-width: 25%;
+    text-align: center;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.footer a {
+    color: #0079ff;
+}
+
+.footer a:hover {
+    color: #005dc7;
+}
+
+.small_screen {
+    display: none;
+    margin: 5rem auto;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 25%;
+    padding: 1rem;
+    background-color: red;
+}
+
+@media (max-width: 1269px) {
+    .wrapper {
+        display: none;
+    }
+    .small_screen {
+        display: block;
+    }
+}
+
+@media (max-width: 805px) {
+    .footer {
+        max-width: 66%;
+    }
+}
